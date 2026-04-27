@@ -40,7 +40,7 @@ nav {
 
 /* about */
 .section-about {
-  height: 100vh;
+  height: 80vh;
   max-height: 1000px;
 }
 
@@ -50,7 +50,7 @@ nav {
 
 /* lineup */
 .section-lineup {
-  margin-bottom: 10rem;
+  height: 100vh;
 }
 .lineup-image {
   width: 100%;
