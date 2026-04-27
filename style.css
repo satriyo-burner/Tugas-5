@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  font-family: arima;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* header */
+nav {
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+}
+.brand-logo {
+  width: 200px;
+  height: auto;
+}
+
+.glass-navbar {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+/* hero */
+.hero {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8)),
+    url(img/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* about */
+.section-about {
+  height: 100vh;
+  max-height: 1000px;
+}
+
+.text-blue {
+  color: #809dff;
+}
+
+/* lineup */
+.section-lineup {
+  margin-bottom: 10rem;
+}
+.lineup-image {
+  width: 100%;
+  height: auto;
+}
+
+/* tickets */
+.goods-bg {
+  background: linear-gradient(
+    to bottom,
+    black 0%,
+    #809dff 10%,
+    #809dff 90%,
+    black 100%
+  );
+  padding: 7rem 0;
+}
+
+/* Merch */
+.merch-img {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 10px;
+}
